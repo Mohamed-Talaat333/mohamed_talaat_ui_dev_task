@@ -259,6 +259,10 @@ body {
 /*********************************************************
     // tables
 **********************************************************/
+@media (min-width: 575px) {
+  .table-responsive {
+    overflow: hidden; } }
+
 table.table {
   table-layout: fixed;
   border-collapse: separate;
@@ -835,5 +839,31 @@ table.table {
       .calendar #datepicker_inline {
         top: 0;
         margin-top: 10px; } }
+
+/*********************************************************
+    // start footer
+**********************************************************/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  padding-bottom: 20px; }
+  .footer .logo {
+    width: 80px; }
+    html[dir="ltr"] .footer .logo {
+      margin-right: 10px; }
+    html[dir="rtl"] .footer .logo {
+      margin-left: 10px; }
+    .footer .logo > img {
+      display: block;
+      width: 100%;
+      height: auto; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -341,3 +341,26 @@
     }
   }
 }
+
+/*********************************************************
+    // start footer
+**********************************************************/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+  .logo {
+    width: 80px;
+    @include dir-margin-right(10px);
+
+    > img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

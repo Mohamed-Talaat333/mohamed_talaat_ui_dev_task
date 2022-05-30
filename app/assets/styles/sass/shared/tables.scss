@@ -2,6 +2,12 @@
     // tables
 **********************************************************/
 
+.table-responsive {
+  @media (min-width: 575px) {
+    overflow: hidden;
+  }
+}
+
 table.table {
   table-layout: fixed;
   border-collapse: separate;
